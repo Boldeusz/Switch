@@ -35,5 +35,16 @@ public class Main {
                 System.out.println("Non of the characters found");
                 break;
         }
+        String month = "JANUARY";
+        switch (month.toLowerCase()){
+            case "january":
+                System.out.println("Jan");
+                break;
+            case "april":
+                System.out.println("Apr");
+                break;
+            default:
+                System.out.println("Not sure");
+        }
     }
 }
